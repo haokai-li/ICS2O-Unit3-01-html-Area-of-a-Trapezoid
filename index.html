@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!-- ICS2O-Unit3-01-HTML-Area-of-a-Trapezoid -->
+<html lang="en-ca">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Area-of-a-Trapezoid, with JavaScript">
+    <meta name="keywords" content="MTHS, ICS2O">
+    <meta name="author" content="haokai">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Area-of-a-Trapezoid, with a JS file</title>
+  </head>
+  <body>
+    <script src="./js/script.js"></script>
+    <h1>Area of a Trapezoid, with a JS</h1>
+    <img src="./image/Trapezoid.svg.png" alt="Trapezoid" width="35%" height="auto">
+    <h2>Formulas</h2>
+    <h3>A = [(a + b)/2] x h</h3>
+    <p>
+      Please enter integers for dimensions:
+      <form action="javascript:enterClicked()">
+        <label for="aBase">a base: </label>
+        <input type="number" id="aBase" placeholder="please take number"> cm<br><br>
+        <label for="bBase">b base: </label>
+        <input type="number" id="bBase" placeholder="please take number"> cm<br><br>
+        <label for="height">height: </label>
+        <input type="number" id="height" placeholder="please take number"> cm<br><br>
+        <input type="submit" value="Calculate Area">
+      </form>
+    </p>
+    <div id="calculate-into">
+      <div id="answer"></div>
+    </div>
+  </body>
+  </html>
